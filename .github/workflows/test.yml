@@ -44,8 +44,6 @@ jobs:
         with:
           file: ./coverage.out
           flags: unittests
-          fail_ci_if_error: false
-        continue-on-error: true
 
   lint:
     name: Lint
@@ -62,11 +60,10 @@ jobs:
           cache: true
 
       - name: Run golangci-lint
-        uses: golangci/golangci-lint-action@v6
+        uses: golangci/golangci-lint-action@v8
         with:
-          version: latest
+          version: v2.5
           args: --timeout=5m
-        continue-on-error: true
 
   build:
     name: Build
