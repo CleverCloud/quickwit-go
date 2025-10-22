@@ -1,8 +1,8 @@
 # quickwit-go
 
-[![Tests](https://github.com/miton18/quickwit-go/actions/workflows/test.yml/badge.svg)](https://github.com/miton18/quickwit-go/actions/workflows/test.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/miton18/quickwit-go)](https://goreportcard.com/report/github.com/miton18/quickwit-go)
-[![GoDoc](https://godoc.org/github.com/miton18/quickwit-go?status.svg)](https://godoc.org/github.com/miton18/quickwit-go)
+[![Tests](https://github.com/CleverCloud/quickwit-go/actions/workflows/test.yml/badge.svg)](https://github.com/CleverCloud/quickwit-go/actions/workflows/test.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/CleverCloud/quickwit-go)](https://goreportcard.com/report/github.com/CleverCloud/quickwit-go)
+[![GoDoc](https://godoc.org/github.com/CleverCloud/quickwit-go?status.svg)](https://godoc.org/github.com/CleverCloud/quickwit-go)
 
 A Go client library for [Quickwit](https://quickwit.io/), a cloud-native search engine.
 
@@ -20,7 +20,7 @@ A Go client library for [Quickwit](https://quickwit.io/), a cloud-native search 
 ## Installation
 
 ```bash
-go get github.com/miton18/quickwit-go
+go get github.com/CleverCloud/quickwit-go
 ```
 
 ## Quick Start
@@ -32,7 +32,7 @@ import (
     "context"
     "log"
 
-    quickwit "github.com/miton18/quickwit-go"
+    quickwit "github.com/CleverCloud/quickwit-go"
 )
 
 func main() {
